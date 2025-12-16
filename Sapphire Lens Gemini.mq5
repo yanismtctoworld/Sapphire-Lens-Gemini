@@ -11,7 +11,7 @@
 #property indicator_separate_window
 #property indicator_buffers 1
 #property indicator_plots   1
-#property indicator_label1  "Mashiach Signal"
+#property indicator_label1  "Sapphire Lens"
 #property indicator_type1   DRAW_HISTOGRAM
 #property indicator_color1  clrDodgerBlue
 #property indicator_width1  2
@@ -247,3 +247,4 @@ void OnDeinit(const int reason)
    ObjectsDeleteAll(0, "MATL_");
 
 }
+
